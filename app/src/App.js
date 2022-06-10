@@ -137,8 +137,6 @@ const App = () => {
                     <p className="sub-text">Each unique. Each beautiful. Discover your NFT today.</p>
                     {currentAccount === "" ? renderNotConnectedContainer() : renderMintUI()}
                 </div>
-                <p className="sub-text">https://testnets.opensea.io/collection/krazy-katz-v2</p>
-                <p className="sub-text">{CONTRACT_ADDRESS}</p>
                 <div className="footer-container">
                 </div>
             </div>
