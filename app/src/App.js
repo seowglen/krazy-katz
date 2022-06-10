@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import myEpicNft from "./utils/NFTCollection.json";
 
 // I moved the contract address to the top for easy access.
-const CONTRACT_ADDRESS = "0x758140a63583a857BbF57A7816544c126a833529";
+const CONTRACT_ADDRESS = "0x492160AC30EE4Ad1140eD291ce8c5b41F9c35040";
 
 const App = () => {
     const [currentAccount, setCurrentAccount] = useState("");

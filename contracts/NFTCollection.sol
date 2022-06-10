@@ -51,9 +51,9 @@ contract NFTCollection is ERC721Enumerable, Ownable {
     require(_mintAmount <= maxMintAmount);
     require(supply + _mintAmount <= maxSupply);
 
-    if (msg.sender != owner()) {
-      require(msg.value >= cost * _mintAmount);
-    }
+    // if (msg.sender != owner()) {
+    //   require(msg.value >= cost * _mintAmount);
+    // }
 
     _safeMint(msg.sender, supply + 1);
 
